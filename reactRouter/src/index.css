@@ -1,0 +1,196 @@
+@import "tailwindcss";
+
+/* =========================
+   MAIN THEME
+========================= */
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  background: #071522 !important;
+  color: #f1f5f9 !important;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* =========================
+   HEADER
+========================= */
+
+header,
+nav {
+  background: #0a1b2b !important;
+  border-color: #16344a !important;
+}
+
+header a,
+nav a {
+  color: #e2e8f0 !important;
+  transition: 0.25s ease;
+}
+
+header a:hover,
+nav a:hover {
+  color: #08bde8 !important;
+}
+
+/* Active Home */
+.text-orange-500,
+.text-orange-600 {
+  color: #ff5a00 !important;
+}
+
+/* =========================
+   MAIN BACKGROUND
+========================= */
+
+.bg-white {
+  background: #071522 !important;
+}
+
+.bg-gray-50 {
+  background: #0b1f31 !important;
+}
+
+.bg-gray-100 {
+  background: #10283b !important;
+}
+
+/* =========================
+   TEXT
+========================= */
+
+.text-black {
+  color: #f8fafc !important;
+}
+
+.text-gray-900 {
+  color: #f8fafc !important;
+}
+
+.text-gray-800 {
+  color: #e2e8f0 !important;
+}
+
+.text-gray-700,
+.text-gray-600,
+.text-gray-500 {
+  color: #b8c7d6 !important;
+}
+
+/* =========================
+   CONTACT CARD
+========================= */
+
+.bg-gray-800 {
+  background: #10283b !important;
+}
+
+/* =========================
+   INPUTS
+========================= */
+
+input,
+textarea {
+  background: #0b1f31 !important;
+  color: #f8fafc !important;
+  border-color: #496579 !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #71879a !important;
+}
+
+input:focus,
+textarea:focus {
+  outline: none !important;
+  border-color: #08bde8 !important;
+  box-shadow: 0 0 0 2px rgba(8, 189, 232, 0.15);
+}
+
+/* =========================
+   ORANGE BUTTON
+========================= */
+
+button,
+.bg-orange-600,
+.bg-orange-500 {
+  background: #e94700 !important;
+  color: white !important;
+  border: none;
+}
+
+button:hover,
+.bg-orange-600:hover,
+.bg-orange-500:hover {
+  background: #ff5a00 !important;
+}
+
+/* =========================
+   BORDERS
+========================= */
+
+.border-gray-200,
+.border-gray-300 {
+  border-color: #25445a !important;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+  background: #0a1b2b !important;
+  color: #e2e8f0 !important;
+  border-color: #16344a !important;
+}
+
+footer a {
+  color: #aebdca !important;
+}
+
+footer a:hover {
+  color: #08bde8 !important;
+}
+
+/* =========================
+   HEADINGS
+========================= */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #f8fafc !important;
+}
+
+/* Cyan accent */
+.text-cyan-500,
+.text-cyan-600 {
+  color: #08bde8 !important;
+}
+
+/* =========================
+   LOGO
+========================= */
+
+header img {
+  object-fit: contain;
+}
+
+/* =========================
+   SMOOTH EFFECT
+========================= */
+
+* {
+  transition-property: background-color, border-color, color, box-shadow;
+  transition-duration: 0.2s;
+}

@@ -1,0 +1,80 @@
+/* DARK THEME */
+
+html,
+body,
+#root {
+  background-color: #111827 !important;
+  color: white !important;
+  min-height: 100%;
+}
+
+/* Header */
+header {
+  background-color: #111827 !important;
+  color: white !important;
+}
+
+header nav {
+  background-color: #111827 !important;
+  border-color: #374151 !important;
+}
+
+/* Header links */
+header a {
+  color: #e5e7eb !important;
+}
+
+header a:hover {
+  color: #fb923c !important;
+}
+
+/* Active link */
+header a.text-orange-700 {
+  color: #fb923c !important;
+}
+
+/* Get Started button */
+header a.bg-orange-700 {
+  background-color: #ea580c !important;
+  color: white !important;
+}
+
+header a.bg-orange-700:hover {
+  background-color: #c2410c !important;
+}
+
+/* Main white backgrounds */
+main,
+.bg-white {
+  background-color: #111827 !important;
+}
+
+/* Text */
+.text-gray-700,
+.text-gray-800,
+.text-gray-600 {
+  color: #e5e7eb !important;
+}
+
+/* Footer */
+footer {
+  background-color: #111827 !important;
+  color: white !important;
+  border-color: #374151 !important;
+}
+
+footer a {
+  color: #d1d5db !important;
+}
+
+footer a:hover {
+  color: #fb923c !important;
+}
+
+/* Footer headings */
+footer h1,
+footer h2,
+footer h3,
+footer h4 {
+  color: white !important;
+}
